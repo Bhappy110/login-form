@@ -1,0 +1,208 @@
+
+@font-face{
+	src: url(../asset/font/OpenSansCondensed-Bold.ttf);
+	font-family: "OpenSansCondensed";
+}
+.wrap{
+	margin-top: 50px;
+}
+/* Setting Navbar */
+
+	.nav-link{
+		color: black;
+		font-size: 18px;
+	}
+
+	.nav-link:hover::after{
+		content: '';
+		display: block;
+		border-bottom: 3px solid blue;
+		width: 50%;
+		margin: auto;
+		padding-bottom: 5px;
+	}
+/* end */
+
+
+.jumbotron{
+	margin-top: 10px;
+	width: 800px;
+	overflow: hidden;
+	background-color: white;
+}
+.side_image{
+	height: 300px;
+	width: 300px;
+}
+.main{
+	margin-top: 30px;
+}
+
+.header{
+	font-family: "OpenSansCondensed"; 
+}
+
+/* input zone */
+	
+	/* Log in */
+
+		.login{
+				margin-top: 28px;
+			}
+
+		/* username */
+		#nav-login .username{
+			display: inline-block;
+			background-color: transparent;
+			padding: 5px 10px;
+			border-radius: 10px;
+			border: 1px solid rgb(11,192,244);
+		}
+		#nav-login .username input{
+			height: 25px;
+			margin-left: 3px;
+			background-color: transparent;
+			border: none;
+		}
+		#nav-login .username input:focus{
+			outline: none;
+		}
+
+
+
+		/* password */
+
+		#nav-login .password{
+			display: inline-block;
+			background-color: transparent;
+			padding: 5px 10px;
+			margin-top: 10px;
+			border-radius: 10px;
+			border: 1px solid rgb(11,192,244);
+		}
+		#nav-login .password input{
+			height: 25px;
+			margin-left: 3px;
+			background-color: transparent;
+			border : none;
+		}
+		#nav-login .password input:focus{
+			outline: none;
+		}
+
+		/* button */
+		
+		#nav-login .button{
+			margin-top: 20px;
+		}
+		#nav-login .button input{
+			background-image: linear-gradient(to right,rgb(83, 136, 236),rgb(11,192,244), rgb(83, 136, 236));
+			height: 37px;
+			width: 200px;
+			border: none;
+			border-radius: 10px;
+			font-family: "OpenSansCondensed";
+			color: white;
+			
+
+		}
+		
+		#nav-login .button input:focus{
+			outline: none;
+			border: 1px solid rgb(142,221,217);
+		}
+	
+
+	/* Register */
+
+		.register{
+			margin-top: 10px;
+		}
+
+		/* username */
+		#nav-register .username{
+			display: inline-block;
+			background-color: transparent;
+			padding: 5px 10px;
+			border-radius: 10px;
+			border: 1px solid rgb(255,99,102);
+		}
+		#nav-register .username input{
+			height: 25px;
+			margin-left: 3px;
+			background-color: transparent;
+			border: none;
+		}
+		#nav-register .username input:focus{
+			outline: none;
+		}
+
+
+
+		/* password */
+
+		#nav-register .password{
+			display: inline-block;
+			background-color: transparent;
+			padding: 5px 10px;
+			margin-top: 10px;
+			border-radius: 10px;
+			border: 1px solid rgb(255,99,102);
+		}
+		#nav-register .password input{
+			height: 25px;
+			margin-left: 3px;
+			background-color: transparent;
+			border : none;
+		}
+		#nav-register .password input:focus{
+			outline: none;
+		}
+
+		/* button */
+		
+		#nav-register .button{
+			margin-top: 20px;
+		}
+		#nav-register .button input{
+			background-image: linear-gradient(to right,rgb(255, 9, 15),rgb(255,100,104), rgb(255, 9, 15));
+			height: 37px;
+			width: 200px;
+			border: none;
+			border-radius: 10px;
+			font-family: "OpenSansCondensed";
+			color: white;
+			
+
+		}
+		
+		#nav-register .button input:focus{
+			outline: none;
+			border: 1px solid rgb(255,51,56);
+		}
+
+/*Medsos Button*/
+
+.medsos{
+	font-size: 25px;
+}
+
+.medsos-fb{
+
+	color: black;
+	margin-left: 10px;
+
+}
+.medsos-ig{
+	color: black;
+}
+.medsos-github{
+	color: black;
+	margin-left: 10px;
+}
+
+.medsos:hover{
+	text-decoration: none;
+	color: black;
+}
+
